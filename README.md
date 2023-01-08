@@ -14,7 +14,10 @@ Currently, I am working on two other functionalities:
   
   2.) Similarly, getting the DELETE function to delete an array of Ids, such as {[{"note":"id",...,"note":"id"}]}.
   
-I will mention that I have provided error handling for most of the functions. Onto showing the API endpoints!
+I will mention that I have provided error handling for most of the functions. I do not show that here just to save space, but stuffice it to say that most of the 
+wrong inputs a user could put in have an appropriate error response. 
+
+Onto showing the API endpoints!
 
 <b>Every note creation has a unique id associated with it, given to use by default by mongoose.</b>
 ![image](https://user-images.githubusercontent.com/122057790/211212704-2c5b5ac1-12e7-4e06-932c-51751843b98b.png)
