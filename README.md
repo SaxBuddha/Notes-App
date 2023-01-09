@@ -2,8 +2,7 @@
 
 To run, download the package and npm i node. Then: node server.js . 
 
-Here I've made a straightforward app that can be used for taking notes. I elected to approach the app using the MVC architecture as its modularity allows for 
-both cleaner and more easily scalable projects. The app is is made in Node and Express, and leverages the mongoose module to handle much of the API functionality. The data is stored on MongoDB's cloud service Atlas.  I will use Postman here to demonstrate the endpoints. 
+Here I've made a straightforward app that can be used for taking notes. The app is is made in Node and Express, and leverages the mongoose module to handle much of the API functionality. The data is stored on MongoDB's cloud service Atlas.  I will use Postman here to demonstrate the endpoints. 
   
 I will mention that I have provided error handling for most of the functions. I do not show that here just to save space, but stuffice it to say that most of the 
 wrong inputs a user could put in have an appropriate error response. 
